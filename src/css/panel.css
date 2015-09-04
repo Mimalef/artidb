@@ -1,0 +1,100 @@
+#nav {
+    background-color: #EEE;
+    position: absolute;
+    width: 250px;
+    float: right;
+    bottom: 0;
+    right: 0;
+    top: 0;
+
+}
+#logo {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 96px;
+    width: 128px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#nav a {
+    background-color: #B60000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: auto;
+    line-height: 40px;
+    margin-left: auto;
+    margin-top: 10px;
+    display: block;
+    width: 200px;
+    color: #EEE;
+}
+#nav a:hover {
+    background-color: #444;
+}
+#content {
+    text-align: center;
+    overflow: scroll;
+    position: absolute;
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+.center, #content form, #content h1 {
+    vertical-align: middle;
+    padding-right: 250px;
+    display: table-cell;
+}
+#content table {
+    vertical-align: middle;
+    padding-right: 280px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 100%;
+}
+#content table td {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 8px;
+    border-color: #DDD;
+    padding: 10px;
+    height: 40px;
+}
+input, select, textarea {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding: 10px;
+}
+input {
+    width: 230px;
+}
+select {
+    width: 250px;
+}
+textarea {
+    width: 500px;
+    height: 300px;
+    text-align: right;
+}
+.msg {
+    margin-right: 250px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    width: 400px;
+}
+.error {
+    background-color: #DD0A0A;
+}
+.success {
+    background-color: #2AC602;
+}
